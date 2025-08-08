@@ -268,6 +268,32 @@
       to { text-shadow: 0 4px 24px #FF4E9B99;}
     }
 
+    #certifications {
+  text-align: center;
+  background-color: #e5e5e5; /* same background as Skills */
+  padding: 40px 0;
+}
+
+#certifications h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: hotpink; /* same as Skills title color */
+  margin-bottom: 20px;
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.certifications-grid p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
     .contact {
       margin: 1rem 0;
       color: #6C00FF;
@@ -542,6 +568,7 @@
     <a onclick="showSection('education')">EDUCATION</a>
     <a onclick="showSection('skills')">SKILLS</a>
     <a onclick="showSection('projects')">PROJECTS</a>
+    <a onclick="showSection('certifications')">CERTIFICATIONS</a>
     <a onclick="showSection('resume')">RESUME</a>
     <a onclick="showSection('contact')">CONTACT</a>
   </nav>
@@ -631,6 +658,20 @@
         <a href="https://www.canva.com/design/DAGubuakcRY/qiSyu5V9ycYGfvtuXBI0fw/edit?utm_content=DAGubuakcRY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Logo Designs</a>
       </div>
     </section>
+
+    <section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certifications-grid">
+    <p>Certified Usability Analyst</p>
+    <p>Foundations of UX Design</p>
+    <p>Get Started with Figma</p>
+    <p>Complete Python for Beginners</p>
+    <p>JavaScript for Beginners</p>
+    <p>TCS iON Career Edge – Young Professional</p>
+    <p>Microsoft Azure Security Technologies</p>
+    <p>Designing and Implementing Microsoft DevOps Solutions</p>
+  </div>
+</section>
 
     <section id="resume">
       <h2>Resume</h2>
